@@ -19,7 +19,7 @@ public class IndexControllerTest {
     @Test
     public void 메인페이지_로딩한다(){
         String body = this.restTemplate.getForObject("/",String.class);
-
+        System.out.println(body);
         assertThat(body).contains("hello");
     }
 }

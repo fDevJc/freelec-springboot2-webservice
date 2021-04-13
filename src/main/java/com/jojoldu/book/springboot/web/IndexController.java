@@ -20,6 +20,7 @@ public class IndexController {
     @GetMapping("/")
     public String index(Model model){
         System.out.println("???");
+
         //model.addAttribute("posts",postsService.findAllDesc());
         /*
         SessionUser user = (SessionUser)  httpSession.getAttribute("user");

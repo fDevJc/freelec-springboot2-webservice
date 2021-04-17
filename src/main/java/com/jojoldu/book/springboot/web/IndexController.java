@@ -21,6 +21,7 @@ public class IndexController {
     public String index(Model model){
         System.out.println("???");
         //뭐가문제지
+
         //model.addAttribute("posts",postsService.findAllDesc());
         /*
         SessionUser user = (SessionUser)  httpSession.getAttribute("user");

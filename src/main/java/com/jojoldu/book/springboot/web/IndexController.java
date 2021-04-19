@@ -19,7 +19,7 @@ public class IndexController {
     private final HttpSession httpSession;
     @GetMapping("/")
     public String index(Model model){
-        System.out.println("???");
+        System.out.println("????");
         //뭐가문제지
 
         //model.addAttribute("posts",postsService.findAllDesc());

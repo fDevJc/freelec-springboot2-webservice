@@ -28,7 +28,7 @@ public class PostsRepositoryTest {
         String title = "테스트 제목";
         String content = "Test Content";
 
-        postsRepository.save(Posts.builder().title(title).content(content).author("author test").build());
+        postsRepository.save(Posts.builder().title(title).content(content).author("author").build());
 
         //when
         List<Posts> postsList = postsRepository.findAll();

@@ -40,7 +40,8 @@ public class HelloContollerTest {
     }
 }
 /*
->@RunWith(SpringRunner.class)
+
+ >@RunWith(SpringRunner.class)
 -테스트를 진핼할때 JUnit에 내장된 실행자 외에 다른 실행자를 실행시킨다.
 -즉 스프링 부트 테스트와 JUnit 사이에 연결자 역할을 한다.
 >@WebMvcTest
